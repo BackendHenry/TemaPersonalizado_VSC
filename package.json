@@ -1,0 +1,21 @@
+{
+  "name": "temachulo",
+  "displayName": "temaChulo",
+  "description": "Theme for VSC",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Theme for visual studio code",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Theme for visual studio code-color-theme.json"
+      }
+    ]
+  }
+}
