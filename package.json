@@ -1,5 +1,5 @@
 {
-  "name": "temachulo",
+  "name": "identificator",
   "displayName": "temaChulo",
   "description": "Theme for VSC",
   "version": "0.0.1",
@@ -17,5 +17,16 @@
         "path": "./themes/Theme for visual studio code-color-theme.json"
       }
     ]
-  }
+  },
+  "icon": "rainbow-flag.png",
+  "author": {
+    "name": "Henry Rivera",
+    "email": "henryrivera.frontend@gmail.com",
+    "url": "https://www.linkedin.com/in/henryart/"
+  },
+  "repository": {
+    "url": "https://github.com/BackendHenry/TemaPersonalizado_VSC.git",
+    "type": "git"
+  },
+  "publisher": "Herian"
 }
