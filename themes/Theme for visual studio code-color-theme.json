@@ -1,5 +1,5 @@
 {
-	"name": "Theme for visual studio code",
+	"name": "TemaChulo",
 	"colors": {
 		"editor.background": "#263238",
 		"editor.foreground": "#eeffff",
@@ -18,17 +18,7 @@
 				"foreground": "#546E7A"
 			}
 		},
-		{
-			"name": "Variables",
-			"scope": [
-				"variable",
-				"string constant.other.placeholder"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#fe08ac"
-			}
-		},
+
 		{
 			"name": "Colors",
 			"scope": [
@@ -46,17 +36,6 @@
 			],
 			"settings": {
 				"foreground": "#FF5370"
-			}
-		},
-		{
-			"name": "Keyword, Storage",
-			"scope": [
-				"keyword",
-				"storage.type",
-				"storage.modifier"
-			],
-			"settings": {
-				"foreground": "#9d00ff"
 			}
 		},
 		{
@@ -110,7 +89,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#fe08ac"
+				"foreground": "#f408fc"
 			}
 		},
 		{
@@ -151,7 +130,8 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#87c27e"
+				"foreground": "#87c27e",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -176,7 +156,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#5d5c9e"
 			}
 		},
 		{
@@ -391,7 +371,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C17E70"
+				"foreground": "#3f4ae0"
 			}
 		},
 		{
@@ -409,7 +389,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#71e7f0"
 			}
 		},
 		{
@@ -418,7 +398,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#9a16f1"
 			}
 		},
 		{
@@ -427,7 +407,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#a7f334"
 			}
 		},
 		{
@@ -437,7 +417,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#6ad6d6"
 			}
 		},
 		{

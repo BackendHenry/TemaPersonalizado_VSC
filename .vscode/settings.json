@@ -1,7 +1,5 @@
 {
   "workbench.colorCustomizations": {
-    "statusBar.background": "#000070",
-    "activityBar.background": "#000040",
     "sideBar.background": "#000030",
     "sideBarSectionHeader.background": "#000040",
     "sideBar.foreground": "#fffffec1",
@@ -10,7 +8,6 @@
     "list.inactiveSelectionBackground": "#ba06ca4b",
     "list.focusOutline": "#000030",
     "list.inactiveFocusOutline": "#000030",
-    "titleBar.activeBackground": "#000050",
     "scrollbarSlider.background": "#0000d66a",
     "scrollbarSlider.hoverBackground": "#ba06ca4b",
     "scrollbarSlider.activeBackground": "#ba06ca4b",
@@ -27,6 +24,70 @@
     "terminalCursor.foreground": "#00ffee",
     "terminal.background": "#000040",
     "terminalOverviewRuler.cursorForeground": "#ff0000",
-    "textLink.foreground": "#ba06caa0",
-  }
+    "textLink.foreground": "#ba06caa0"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "variable",
+        "settings": {
+          "foreground": "#f408fc",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "variable.other.readwrite",
+        "settings": {
+          "foreground": "#ffd06b",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "variable.parameter",
+        "settings": {
+          "foreground": "#f408fc",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "keyword.operator.new",
+        "settings": {
+          "foreground": "#6cf859",
+        }
+      },
+      {
+        "scope": "keyword",
+        "settings": {
+          "foreground": "#7807be",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "storage.type",
+        "settings": {
+          "foreground": "#7807be",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "storage.modifier",
+        "settings": {
+          "foreground": "#9844cc",
+        }
+      },
+      {
+        "scope": "string.quoted.double",
+        "settings": {
+          "foreground": "#639e5d",
+        }
+      },
+      {
+        "scope": "entity.other",
+        "settings": {
+          "foreground": "#faa646",
+          "fontStyle": "italic"
+        }
+      },
+    ]
+  },
 }
